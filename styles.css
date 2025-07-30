@@ -1,0 +1,123 @@
+
+:root {
+    --navig: #000000;
+    --first: #2f303a;
+    --biznes: rgba(255, 255, 255, 1);
+    --logo: #000000;
+    --web: #2196F3;
+    --but1: #ffffff;
+    --pp: #757575;
+    --Team: #F5F4FA;
+    --footerbec: #2F303A;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    /* 24 / 16 */
+}
+
+/* Логотип WebStudio */
+.logo {
+    font-family: 'Raleway', sans-serif;
+    color: var(--logo);
+    font-size: 26px;
+    line-height: 1.19;
+    /* 31 / 26 */
+}
+
+/* Частина логотипу "Web" */
+.web {
+    color: var(--web);
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+/* Меню навігації */
+.navig {
+    color: var(--navig);
+    font-size: 14px;
+    line-height: 1.14;
+    /* 16 / 14 */
+}
+
+/* Головний заголовок */
+.biznes {
+    color: var(--biznes);
+    font-size: 44px;
+    line-height: 1.36;
+    /* 60 / 44 */
+}
+
+/* Кнопка */
+.but1 {
+    background-color: var(--web);
+    color: var(--but1);
+    font-size: 16px;
+    line-height: 1.5;
+    /* 24 / 16 */
+}
+
+/* Опис (параграфи) */
+.pp {
+    color: var(--pp);
+    font-size: 14px;
+    line-height: 1.71;
+    /* 24 / 14 */
+}
+
+/* Секція команда */
+.TEAM {
+    background-color: var(--Team);
+}
+
+/* Ім'я учасника команди */
+.TEAM h3 {
+    font-size: 16px;
+    line-height: 1.19;
+    /* 19 / 16 */
+}
+
+/* Футер */
+footer {
+    background-color: var(--footerbec);
+    color: var(--but1);
+    font-size: 14px;
+    line-height: 1.71;
+    /* 24 / 14 */
+}
+
+/* Назва секції "Наші переваги" */
+.about h3 {
+    font-size: 14px;
+    line-height: 1.14;
+    /* 16 / 14 */
+}
+
+/* Заголовок секції "Наша команда" */
+.ourteam {
+    font-size: 36px;
+    line-height: 1.17;
+    /* 42 / 36 */
+}
+
+/* Заголовок секції "Про нас" */
+.ABOUTUS {
+    font-size: 36px;
+    line-height: 1.17;
+}
+
+/* Портфоліо — заголовок проекту */
+.portfolio h3 {
+    font-size: 18px;
+    line-height: 1.33;
+    /* 24 / 18 */
+}
+
+/* Портфоліо — опис проекту */
+.portfolio p {
+    font-size: 16px;
+    line-height: 1.5;
+    /* 24 / 16 */
+}
